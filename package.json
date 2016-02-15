@@ -1,7 +1,7 @@
 {
   "name": "dscript-react",
   "version": "0.1.0",
-  "description": "Dscript with React setup done for you",
+  "description": "dscript with React setup done for you",
   "main": "lib/index.js",
   "scripts": {
     "compile": "babel src --out-dir lib",
