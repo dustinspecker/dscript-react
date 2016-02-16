@@ -14,12 +14,17 @@ npm install --save dscript-react
 
 ## Usage
 ```javascript
-import {div, li, ul} from 'dscript-react'
+import creator, {div, li, ul} from 'dscript-react'
+
+import customComponent from './custom-component'
+
+const customComponentCreator = creator(customComponent)
 
 const handleClick = () => alert('hi')
 
 export default props =>
   div('.list-container', {onClick: handleClick}, [
+    customComponentCreator({total: props.total}),
     ul(
       props.items.map(item =>
         li([item.name])
