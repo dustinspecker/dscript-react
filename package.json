@@ -25,7 +25,7 @@
     "lib"
   ],
   "dependencies": {
-    "dscript": "^0.1.0",
+    "dscript": "^1.0.0",
     "react": "^0.14.7"
   },
   "devDependencies": {
