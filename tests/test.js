@@ -10,5 +10,5 @@ test('verify it works with React\'s createElement', t => {
   t.is(reactDiv.props.title, 'hello')
   t.is(reactDiv.props.id, 'hi')
   t.is(reactDiv.props.class, 'yo')
-  t.same(reactDiv.props.children[0], 'world')
+  t.deepEqual(reactDiv.props.children[0], 'world')
 })
