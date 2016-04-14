@@ -8,6 +8,7 @@
 [![DevDependencies](https://david-dm.org/dustinspecker/dscript-react/dev-status.svg)](https://david-dm.org/dustinspecker/dscript-react/#info=devDependencies&view=table)
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 > [dscript](https://github.com/dustinspecker/dscript) with [React](https://facebook.github.io/react/) setup done for you
 
