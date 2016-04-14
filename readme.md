@@ -16,9 +16,13 @@
 **Check out [dscript](https://github.com/dustinspecker/dscript) for documentation on more advanced usage.**
 
 ## Install
+For usage with React `v15.0`:
 ```
 npm install --save dscript-react
 ```
+
+**Note: React `v0.14` users should install via `npm install --save dscript-react@1.0.0`**
+
 
 ## Usage
 ```javascript
